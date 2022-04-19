@@ -24,7 +24,7 @@
   --discord-spotify: 29, 185, 84;
   --discord-twitch: 89, 54, 149;
   --discord-xbox: 16, 124, 16;
-  --version: "Frosted Glass 2.0.13";
+  --version: "1.0";
 }
 
 .theme-dark {
@@ -138,12 +138,12 @@
 }
 
 #app-mount .app-2CXKsg::before {
-  content: "Your version of Frosted Glass is outdated. Please redownload";
+  content: "Your version is outdated. Please redownload";
   white-space: pre-wrap;
   display: var(--update-notice-1, block);
-  color: #fff;
+  color: #e60fd6;
   text-align: center;
-  padding: 10px 0;
+  padding: 0px 0;
   box-sizing: border-box;
   background: rgb(var(--discord-blurple), 0.7);
   text-shadow: 0 2px 3px rgba(0, 0, 0, var(--text-shadow));
